@@ -9,6 +9,8 @@ def main(model_path):
     # Streamlit UI
     st.title('Sales Prediction App')
 
+
+    st.write('I am an app made with AI. I will help you predict sales if you tell the the amount you spend on TV, Radio and Newspaper Advertisements\nLet\s go, give me your values')
     # Input fields for feature values
     tv = st.number_input('TV Advertisements', min_value=0.0, step=1.0)
     radio = st.number_input('Radio Advertisements', min_value=0.0, step=1.0)
